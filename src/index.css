@@ -1,0 +1,28 @@
+:root {
+  /* Typography & Layout */
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+
+  /* Colors */
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.95);
+  background-color: #1e1e2f;
+
+  /* Smoothing */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #fff;
+  color: inherit;
+}

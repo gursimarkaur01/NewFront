@@ -1,0 +1,36 @@
+.student-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a66c2;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .nav-left a {
+    margin: 0 1rem;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-left a:hover {
+    color: #dceaff;
+  }
+  
+  .logout-btn {
+    background-color: #ffffff;
+    color: #0a66c2;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e1efff;
+  }
+  

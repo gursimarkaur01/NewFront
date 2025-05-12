@@ -1,0 +1,73 @@
+/* Container styles */
+.admin-job-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Heading */
+  .admin-job-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #2c2c2c;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  /* Form styles */
+  .admin-job-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Input and Textarea */
+  .admin-job-container input,
+  .admin-job-container textarea {
+    padding: 14px 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+  }
+  
+  .admin-job-container input:focus,
+  .admin-job-container textarea:focus {
+    border-color: #0a66c2;
+    box-shadow: 0 0 0 2px rgba(112, 181, 249, 0.25);
+    outline: none;
+  }
+  
+  /* Button */
+  .admin-job-container button {
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #0a66c2;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-job-container button:hover {
+    background-color: #004182;
+  }
+  
+  /* Message */
+  .admin-job-container p {
+    margin-top: 25px;
+    text-align: center;
+    color: #0a8917;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  

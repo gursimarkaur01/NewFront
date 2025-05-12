@@ -1,0 +1,80 @@
+.applications-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .applications-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #004182;
+    text-align: center;
+  }
+  
+  .error-text {
+    color: red;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .empty-text {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .applications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .application-card {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+  }
+  
+  .application-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .company-name {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0;
+  }
+  
+  .status {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(0, 64, 255);
+    text-transform: capitalize;
+  }
+  
+  .status.pending {
+    background-color: #ffc107;
+  }
+  
+  .status.accepted {
+    background-color: #28a745;
+  }
+  
+  .status.rejected {
+    background-color: #dc3545;
+  }
+  

@@ -1,0 +1,85 @@
+.job-details-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.job-header h2 {
+  font-size: 1.8rem;
+  color: #004182;
+  margin-bottom: 0.5rem;
+}
+
+.company-name {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.job-type {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: #e3f2fd;
+  color: #0073b1;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+}
+
+.job-description {
+  margin-top: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.apply-toggle-btn {
+  margin-top: 1.5rem;
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.apply-toggle-btn:hover {
+  background-color: #005582;
+}
+
+.apply-form {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1.5rem;
+}
+
+.submit-btn {
+  background-color: #02894b;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #026c3a;
+}
+
+.message {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: green;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}

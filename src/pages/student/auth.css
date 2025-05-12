@@ -1,0 +1,67 @@
+/* AuthStyles.css */
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signref{
+  padding-top: 1rem;
+  margin-top: 1rem;
+  color:#0a66c2
+}
+.auth-box {
+  width: 350px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.auth-box h2 {
+  color: #0a66c2; /* LinkedIn Blue */
+  margin-bottom: 1.5rem;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.auth-box input:focus {
+  border-color: #0a66c2;
+  outline: none;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-box button:hover {
+  background-color: #004182;
+}
+
+.auth-error {
+  color: #d93025;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
